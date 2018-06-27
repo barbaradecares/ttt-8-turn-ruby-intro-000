@@ -16,7 +16,7 @@ board[index]=value
 end 
 
 def valid_move?(board, index)
-if index.between?(0,8)
+if index>=0 && index<=8
   TRUE
 else 
   FALSE
